@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" href="../css/list.css" />
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/focus.js"></script>
+		<script>
+		
+	        jQuery(function($){
+	            $('.myfocus').myFocus({
+	                imgs:['../img/lunbo1.jpg','../img/lunbo2.jpg','../img/lunbo3.jpg']
+	            });
+	            
+	            
+	            var $lazy = $('.lazyjzs').find('.lazyjz').find('.con');  
+				var pageNum = 1;
+				// 局配置
+				$.ajaxSetup({
+					url:'../js/list.json',
+					data:{pageNo:pageNum},
+					dataType:'json',
+					success:function(res){						
+						var $ul = $('<ul/>');
+						$.each(res,function(idx,item){
+							$('<li/>').html('<p class="imgurl">'+'<img src="'+item.imgurl+'"/>'+'</p>'+'<p class="title">'+item.title+'</p>'+'<p class="price">'+item.price+'</p>'+'<p class="cityprice">'+item.cityprice+'</p>').appendTo($ul);
+						});
+						
+						$lazy.append($ul);
+					}
+				});
+				
+				$.ajax();
+			
+				$(window).on('scroll',function(){
+					var scrollTop = $(window).scrollTop();
+					// 懒加载
+					if(scrollTop >= $(document).height() - $(window).height() - 100){
+						pageNum++;
+						if(pageNum>=20){
+//							pageNum = 1;
+							return;
+						}
+			
+						$.ajax({
+							data:{pageNo:pageNum}
+						});	
+					}
+				});
+				// 手动触发滚动事件
+				$(window).trigger('scroll');
+				
+	        });
+        
+    	</script>
+	</head>
+	<body>
+		<div class="total">
+			<div class="toppic"><img src="../img/top.jpg" /></div>
+			<div class="containtop">
+				<div class="top">
+					<ul class="indexleft">
+						<li class="indexleft1"><a href="#">您好,m18001367825@136...</a></li>
+						<li><a href="#">退出</a></li>
+						<li class="indexleft2"><span><img src="../css/img/phone-logo.jpg"></span><a href="#">手机考拉海购</a></li>
+					</ul>
+					<ul class="indexright">
+						<li class="indexright1"><a href="#">我的订单</a></li>
+						<li><a href="#">个人中心</a><span></span></li>
+						<li><a href="#">客户服务</a><span></span></li>
+						<li><a href="#">游戏充值</a></li>
+						<li><a href="#">消费者告知书</a></li>
+						<li><a href="#">更多</a><span></span></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="containlogo">
+				<div class="logo">
+					<div class="logoleft"><a href="#"><img src="../css/img/seashop-logo.jpg"></a></div>
+					<div class="logoright">
+						<form>
+							<button class="logoright-btn1"></button><input type="text" placeholder="洗发水" /><button class="logoright-btn2">搜索</button>			
+						</form>
+						<div class="logoright-left">
+							<ul>
+								<li><a href="#">包包</a></li>
+								<li><a href="#">面膜</a></li>
+								<li><a href="#">手表</a></li>
+								<li><a href="#">奶粉</a></li>
+								<li><a href="#">花王</a></li>
+								<li class="logoright-left6"><a href="#">奶瓶</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containlist">
+				<div class="list">
+					<ul class="listleft">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">母婴专区</a></li>
+						<li><a href="#">美容彩妆</a></li>
+						<li><a href="#">家居个户</a></li>
+						<li><a href="#">进口美食</a></li>
+						<li><a href="#">营养保健</a></li>
+						<li><a href="#">服饰鞋包</a></li>
+						<li><a href="#">海外直邮</a></li>
+					</ul>
+					<ul class="listright">
+						<li><a href="#"><img src="../css/img/shoppingcar.jpg">购物车</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="myfocus">
+			</div>
+			
+			<!--懒加载-->
+			<div class="lazyjzs">
+				<div class="lazyjz">
+					<div class="con">
+						
+					</div> 
+				<div>
+			</div>
+			
+			<div class="bottom">
+				<ul class="bottomlist">
+					<li>
+						<ul>
+							<li><a href="#">About Netease</a></li>
+							<li><a href="#">公司简介</a></li>
+							<li><a href="#">练习方法</a></li>
+							<li><a href="#">招聘信息</a></li>
+							<li><a href="#">客户服务</a></li>
+							<li><a href="#">隐私政策</a></li>
+							<li class="bottomlist-7"><a href="#">网络营销</a></li>
+						</ul>
+					</li>		
+					<li class="bottomlisttwo">增值电信业务经营许可证 ：浙B2-20090185-3 网易公司版权所有 @ 1997-2015</li>
+					<li class="bottomlistthree"><a href="#"><img src="../css/img/licence.jpg"></a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</body>
+</html>

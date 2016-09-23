@@ -1,0 +1,54 @@
+/* index/商品详情-top*/
+.containtop{position:relative; width:100%; height:30px; background-color:#f2f2f2; border-bottom:1px solid #ededee;}
+.top{width:1075px; height:30px; margin:0 auto;}
+.top li, .top a{color:#666666;}
+.top{padding-top:7px;}
+.indexleft li{float:left; padding:0 10px;}
+.indexleft .indexleft1{border-right:1px solid #d3ccd3;}
+.indexleft .indexleft2 a{color:#d22147;}
+.indexleft2 span{padding-right:5px;}
+.indexright{float:right;}
+.indexright li{float:left; padding:0 17px; border-left:1px solid #d3ccd3;}
+.indexright .indexright1{border-left:none;}
+.indexright li a:hover{color:#d22046;}
+.indexright li span{position:absolute; top:10px; border:5px solid #ccc; width:0; height:0; border-left-color:transparent;border-right-color:transparent;border-bottom-color:transparent;}
+.toppic{width:100%; height:80px;}
+.toppic img{width:100%; height:80px;}
+
+/*index/商品详情-logo*/
+.containlogo{width:100%; height:100px; background-color:#ffffff;}
+.logo{width:1090px; margin:0 auto; position:absolute;}
+.logoleft{float:left; padding:23px 0 0 150px;}
+.logoright{float:right; padding-top:26px;}
+.logoright form{height:40px;}
+.logoright input{width:287px; height:28px; position:absolute; bottom:20px; border:1px solid #d22147; border-left:none;}
+.logoright .logoright-btn1{width:30px; height:32px;  background:url(img/search.jpg) no-repeat; background-position:7px 7px; border:1px solid #d22147; border-right:none;}
+.logoright .logoright-btn2{width:63px; height:32px; position:absolute; right:-88px; bottom:20px; color:#ffffff; background-color:#d22147; border:1px solid #d22147;}
+.logoright-left{position:relative; right:12px;}
+.logoright-left ul li{float:left; padding:0 12px; border-right:1px solid #b299b2;}
+.logoright-left ul li a{color:#444444;}
+.logoright-left ul li a:hover{color:#d22046;}
+.logoright-left .logoright-left6{border-right:none;}
+
+/*index/商品详情-containlist*/
+.containlist{width:100%; height:42px; position:relative; background-color:#222222;}
+.list{width:1090px; margin:0 auto;}
+.list a{font-size:14px; color:#ffffff;}
+.list .listleft li{float:left; width:100px; height:42px; line-height:42px; text-align:center;}
+.list .listleft li:hover{background-color:#d22147;}
+.list .listright{float:right;}
+.list .listright li{float:left; width:120px; height:42px; text-align:center; line-height:42px; background-color:#444444;}
+
+
+/* index/商品详情页/购物车-bottom*/
+.bottom{width:100%; height:150px; background-color:#333333;}
+.bottomlist{width:754px; margin:0 auto;}
+.bottomlist ul{height:14px; padding-top:44px;}
+.bottomlist ul li{float:left; padding:0 22px; border-right:1px solid #956695;}
+.bottomlist ul li a{color:#999999;}
+.bottomlist ul li a:hover{text-decoration:underline;}
+.bottomlist .bottomlist-7{border-right:none;}
+.bottom .bottomlist .bottomlisttwo{color:#999999; padding-left:120px; line-height:40px;}
+.bottom .bottomlist .bottomlistthree{padding-left:296px;}
+
+

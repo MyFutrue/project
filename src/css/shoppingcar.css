@@ -1,0 +1,66 @@
+/*netlogos*/
+.netlogos{width:100%; height:95px;}
+.netlogo{width:1090px; margin:0 auto;}
+.netlogoleft{float:left; padding-top:20px;}
+.netright{float:right; width:330px;}
+.netright1{width:260px; height:45px; margin-left:31px; border-bottom:2px solid #dddddd;}
+.netright2{margin-left:20px;}
+.netright2 .middlespan1{border-color:#f00;}
+.netright2 span{position:relative; bottom:8px;  display:block; float:left; width:10px; height:10px; border-radius:50px; border:2px solid #dddddd;}
+.netright2 .middlespan{margin:0 126px 0 116px;}
+.netright3 .middleli1{color:#f00;}
+.netright3 li{float:left; color:#dddddd;}
+.netright3 .middleli2{padding:0 75px;}
+
+/*bhs*/
+.bhs{width:100%; height:40px;}
+.bh{width:1090px; margin:0 auto;}
+.bh{font-size:18px; color:#333333;}
+.bh span{font-size:14px; text-align:center; color:#ffffff; background-color:#d22147;}
+
+
+/*contents*/
+.contents{width:100%; margin-bottom:35px;}
+.content{width:1090px; margin:0 auto; border:1px solid #eaeaea;}
+.datalist{width:1090px; border-bottom:1px solid #eaeaea;}
+.datalist tr th{color:#999999;}
+.datalist thead tr{height:35px; border-bottom:1px solid #eaeaea;}
+.datalist .th1{width:110px;}
+.datalist .th2{width:360px;}
+.datalist .th3{width:170px; padding-left:5px;}
+.datalist .th4{width:150px;}
+.datalist .th5{width:160px;}
+
+.datalist .tbody1 tr{/*height:120px;*/ background-color:#fffbf0;}
+.r3-3 button{width:22px; height:21px; font-size:14px; font-weight:bold;   background-color:#fffbf0; border:1px solid #cccccc;}
+.r3-3 input{width:42px; height:17px; background-color:#fffbf0; text-align:center; border:1px solid #cccccc;}
+.datalist .tbody1 tr .td7 button{background-color:#fffbf0; border:1px solid #cccccc;}
+.tbody1 .td4 span{text-decoration:line-through;}
+.content2{height:180px;  padding-top:20px; background-color:#f7f7f7;}
+.td8, .td9, .td10, .td11{float:left; color:#333333;}
+.td11{float:right; padding-right:20px;}
+.td11 .c1, .td11 .c2, .td11 .c3{padding-left:108px;}
+.content2 .td10{padding-left:25px;}
+.c3 span{text-decoration: line-through;}
+.c4 span, .c4 i{color:#d22147; font-weight: bold;}
+.c4 i{font-size:15px;}
+.td11 .c5 button{width:120px; height:40px; margin:15px 0 0 113px; background-color:#d22147; color:#ffffff; font-size:18px; font-weight:bold; text-align:center; line-height:40px; border:none;}
+.td11 p{line-height:22px;}
+.datalist .th0 input, .datalist .td1 input, .datalist .td8 input{background-color:#d22147;}
+
+
+/*likes*/
+.likes{width:100%;}
+.like{width:1090px; height:35px; margin:0 auto;}
+.like p{color:#999999;}
+.like p span{font-size:18px; font-weight:bold; color:#333333;}
+
+
+/*drinks*/
+.drinks{width:100%;}
+.drink{width:1090px; margin:0 auto; overflow:hidden;}
+.drink ul li{width:204px; height:304px; float:left; margin-right:12px; border:1px solid #eaeaea;}
+.ttd1 img{margin-bottom:25px;}
+.ttd2, .ttd3, .ttd4, .ttd5{text-indent:20px; line-height:20px; color:#333333;}
+.ttd4, .ttd5 a{color:#999999;}
+.ttd4 span{font-size:18px; font-weight:bold; color:#da2147;}

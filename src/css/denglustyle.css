@@ -1,0 +1,61 @@
+/*top*/
+.toplogo{width:100%; height:100px; }
+.logo1{width:960px; height:100px; margin:0 auto;}
+.logo1 .left{float:left; padding-top:21px;}
+.logo1 .right{float:right; padding-top:31px;}
+.right .rightone, .right .righttwo, .right .rightthree{float:left; padding-left:27px;}
+.rightone img, .righttwo img, .rightthree img{padding-right:11px;}
+.right .rightone li, .right .righttwo li, .right .rightthree li{float:left; color:#8c8c8c; line-height:16px;}
+.right span{font-size:16px; color:#666666; font-weight:bold;}
+
+/*middle*/
+.middle{width:100%; height:520px; background-color:#f8f8f8; border-top:1px solid #e8e8ea;}
+.middletwo{width:965px; height:520px; margin:0 auto;}
+.middleleft{float:left;}
+.middleleft .left-top{ height:140px; padding-top:155px;}
+.middleleft .left-top li{float:left;}
+.left-top .left-top-1{font-size:110px; font-weight:bold; color:#d21f46;}
+.left-top dt{font-size:47px; font-weight:bold; color:#d21f46; line-height:55px;}
+.left-top dd{font-size:32px; color:#d12548; line-height:45px; letter-spacing:4px;}
+.middleleft .left-bottom dl dt{padding-left:5px;}
+.middleleft .left-bottom dl dd{line-height:20px; color:#d73b5c; padding-right:10px;}
+.left-bottom dl{float:left;}
+.middleright{width:499px; height:355px; border:1px solid #eaeaea; float:right; background-color:#ffffff; margin-top:80px;}
+.middleright .middleright-1, .middleright .middleright-2{float:left;}
+.middleright .middleright-1{ height:335px; border-right:1px solid #eaeaea;}
+.middleright .middleright-1 form{width:268px; padding:30px 40px 0 40px;}
+.form-1{font-size:17px; color:#333333; font-weight:bold;}
+.form-1 a{color:#333333; font-size:12px;}
+.form-1 span{padding-left:110px;}
+.form-2{padding-top:23px;}
+.form-3{padding-top:10px; padding-bottom:18px;}
+.middleright-1 .form-4 span{padding-left:104px;}
+.middleright-1 .form-4 a{color:#666666;}
+.middleright-1 .btn{width:270px; height:40px; background-color:#d22147; color:#fffff3; border:none; margin-top:19px; font-size:20px;}
+.form-2 input{background:url(img/bg1.png) no-repeat;}
+.form-3 input{background:url(img/bg2.png) no-repeat;}
+.form-2 input, .form-3 input{width:268px; height:30px; border:1px solid #eaeaea;text-indent:30px;}
+.middleright-1 .denglu{border-top:1px solid #eaeaea; margin-top:55px; padding-top:8px;}
+.middleright-1 .denglu img{vertical-align:middle;}
+.middleright-1 .denglu li{float:left; text-align:center;}
+.middleright-1 .denglu li a{color:#333333;}
+.denglu .denglu-1{width:130px; height:22px; border-right:1px solid #eaeaea;}
+.denglu .denglu-2{width:104px; height:22px; border-right:1px solid #eaeaea;}
+.denglu .denglu-3{width:114px; height:22px;}
+.denglu .denglu-1 span, .denglu .denglu-2 span, .denglu .denglu-3 span{padding-right:6px;}
+.middleright-2{padding:91px 0 0 19px;}
+.middleright-2 dl dt img{border:1px solid #eaeaea;}
+.middleright-2 li{color:#d41a41; text-align:center; font-weight:bold; line-height:22px;}
+.middleright-2 .middleright-2-1 span{font-size:15px;}
+.middleright-2 dl dd ul{padding-top:5px;}
+
+/*bottom*/
+.bottom{width:100%; height:239px; background-color:#ffffff;}
+.bottomlist{width:754px; margin:0 auto;}
+.bottomlist ul{height:14px; padding-top:44px;}
+.bottomlist ul li{float:left; padding:0 22px; border-right:1px solid #956695;}
+.bottomlist ul li a{color:#666666;}
+.bottomlist .bottomlist-7{border-right:none;}
+.bottom .bottomlist .bottomlisttwo{color:#999999; padding-left:120px; line-height:40px;}
+.bottom .bottomlist .bottomlistthree{padding-left:296px;}
+

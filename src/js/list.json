@@ -1,0 +1,34 @@
+[
+	{
+		"imgurl":"../img/json1.jpg",
+		"title":"munaka health 蜜纽康麦卢卡蜂蜜",
+		"url":"#",
+		"price":"包邮价<span>￥159</span>",
+		"cityprice":"市场价￥319"
+	},
+	
+	{
+		"imgurl":"../img/json2.jpg",
+		"title":"Streamland 新溪岛honey国宝级制蜜首选",
+		"url":"#",
+		"price":"包邮价<span>￥399</span>",
+		"cityprice":"市场价￥719"
+	},
+	
+	{
+		"imgurl":"../img/json1.jpg",
+		"title":"Streamland 新溪岛honey国宝级制蜜首选",
+		"url":"#",
+		"price":"包邮价<span>￥89</span>",
+		"cityprice":"市场价￥219"
+	},
+	
+	{
+		"imgurl":"../img/json2.jpg",
+		"title":"Streamland 新溪岛honey国宝级制蜜首选",
+		"url":"#",
+		"price":"包邮价<span>￥1399</span>",
+		"cityprice":"市场价￥2719"
+	}
+]
+

@@ -1,0 +1,11 @@
+/*lazys*/
+.lazyjzs{width:100%; background-color:#f3f3f3;}
+.lazyjz{width:1090px; margin:0 auto;}
+.lazyjz .con{overflow:hidden;}
+.lazyjz .con ul li{width:244px; height:320px; background-color:#ffffff; float:left; margin:0 28px 10px 0;}
+.imgurl img{padding-bottom:35px;}
+.title, .price, .cityprice{text-indent:20px; padding-bottom:10px; color:#333333; line-height:10px;}
+.title{font-weight:bold;}
+.price{color:#d22147;}
+.price span{font-size:18px; font-weight:bold;}
+.cityprice{text-decoration:line-through;}
