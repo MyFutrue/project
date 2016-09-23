@@ -73,9 +73,9 @@
 /*detailright*/
  .detailrights{margin-left:20px; border:1px solid #eaeaea;} 
 .int-detail{width:880px; height:48px;border-bottom:1px solid #eaeaea; background-color:#f8f8f8;}
-.int-detail ul li{width:159px; height:48px; font-size:15px; text-align:center; line-height:48px; border-right:1px solid #eaeaea;float:left;}
-.ddd{ background-color:#ffffff; border-top:4px solid #d41c44;}
-.ccc{ background-color:#ffffff; border-top:4px solid #d41c44;}
+.int-detail ul li{width:159px; height:45px; font-size:15px; text-align:center; line-height:48px; border-right:1px solid #eaeaea;float:left;}
+.int-detail ul .ddd{ background-color:#ffffff; border-top:4px solid #d41c44;}
+.ccc{background-color:#ffffff; border-top:4px solid #d41c44;}
 .int-detail ul li:hover{height:45px; background-color:#ffffff; border-top:4px solid #d41c44;}
 .pp{height:47px; line-height:47px; text-indent:20px;}
 .pp span{padding-left:145px;}

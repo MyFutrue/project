@@ -15,14 +15,12 @@
 .middle1 ul li:hover{background-color:#fbfcfd; border-top:1px solid #69b3f2;}
 .middle2one{position:relative; width:904px; height:620px; background-color:#fafcfc;}
 .middle2 div{float:left;}
-/*.middle2one form ul li{float:left; height:55px;}*/
 .middle2one .email{padding-right:5px;}
 .middle2one .email a{color:#406eba; float:right; line-height:20px;}
 .middle2one form{position:relative; right:100px; width:395px; height:431px; margin:61px 0 0 342px;}
 .middle2one input{width:388px; height:48px; margin:10px 0; font-size:18px; color:#c1c4d2; border:1px solid #c2c2c2;}
 .middle2one .pw{margin:15px 0;}
 .middle2one .shuaxin1{width:240px; border-right:none; float:left;}
-/*.yzm{display: block; width: 100px; height: 50px; background: #1A61B1; position: absolute; top: 50px; left:50px;}*/
 .middle2one .shuaxin2{width:94px; height:50px; float:left;font-size:40px; text-align:center; line-height:52px; margin-top:10px; background-color:#69B3F2; border:1px solid #d0d0d0; border-left:none; border-right:none;}
 .middle2one .shuaxin3{width:55px; height:50px; margin-top:10px; float:left;padding-bottom:48px; background:url(img/shuaxin.jpg) no-repeat; border:1px solid #d0d0d0;}
 .middle2-2{width:207px; height:620px; background-color:#f5f5f5;}

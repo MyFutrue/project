@@ -47,6 +47,9 @@
 .td11 .c5 button{width:120px; height:40px; margin:15px 0 0 113px; background-color:#d22147; color:#ffffff; font-size:18px; font-weight:bold; text-align:center; line-height:40px; border:none;}
 .td11 p{line-height:22px;}
 .datalist .th0 input, .datalist .td1 input, .datalist .td8 input{background-color:#d22147;}
+.datalist .td2 img{width:80px; height:80px;}
+
+
 
 
 /*likes*/

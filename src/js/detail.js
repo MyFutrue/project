@@ -6,7 +6,7 @@ jQuery(function(){
 	
 	//高亮效果
 	var $li = $('.int-detail').find('ul').find('li');
-	$.each('$li',function(){
+	$.each($li,function(){
 		$(this).on('mouseenter',function(){
 			$(this).addClass('ccc');
 			$li.eq(0).removeClass('ddd');
@@ -80,8 +80,8 @@ jQuery(function(){
         });
         
         
-        var str=getCookie("arr");
-		var arr=[];
+        var str = getCookie("arr");
+		var arr = [];
 		
 		//取出对应的值，保存到cookie
 		var $Img = $('#zoom_01').attr('src');
