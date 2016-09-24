@@ -3,7 +3,8 @@ jQuery(function($){
 		//取出保存的cookie
 		var str = getCookie("arr");
 		var arr = JSON.parse(str);
-		
+		$('.c4').find('span').html(1);
+		$('.c4').find('i').html(45);
 		for (var i=0; i<arr.length; i++){
 			var $tr = $('<tr/>');			
 			var $td1 = $('<td/>');

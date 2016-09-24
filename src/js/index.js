@@ -61,7 +61,6 @@ jQuery(function($){
 		}else{
 			$floor.fadeOut();
 		}
-		//$('html,body').animate({scrollTop:$floortop});
 		
 	});
 	
@@ -78,7 +77,6 @@ jQuery(function($){
 //		}
 //		$('html,body').animate({scrollTop:scrollTop});
 //	});
-		
 	
 	
 	

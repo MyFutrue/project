@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>列表</title>
 		<link rel="stylesheet" href="../css/reset.css" />
 		<link rel="stylesheet" href="../css/common.css" />
 		<link rel="stylesheet" href="../css/index.css" />
@@ -13,16 +13,18 @@
 		<script>
 		
 	        jQuery(function($){
+	        	
 	            $('.myfocus').myFocus({
 	                imgs:['../img/lunbo1.jpg','../img/lunbo2.jpg','../img/lunbo3.jpg']
 	            });
+	            
 	            
 	            
 	            var $lazy = $('.lazyjzs').find('.lazyjz').find('.con');  
 				var pageNum = 1;
 				// 局配置
 				$.ajaxSetup({
-					url:'../js/list.json',
+					url:'list.json',
 					data:{pageNo:pageNum},
 					dataType:'json',
 					success:function(res){						
@@ -34,7 +36,7 @@
 						$lazy.append($ul);
 					}
 				});
-				
+					
 				$.ajax();
 			
 				$(window).on('scroll',function(){
@@ -42,9 +44,9 @@
 					// 懒加载
 					if(scrollTop >= $(document).height() - $(window).height() - 100){
 						pageNum++;
-						if(pageNum>=20){
-//							pageNum = 1;
-							return;
+						if(pageNum>=4){
+							pageNum = 1;
+							
 						}
 			
 						$.ajax({
@@ -56,7 +58,7 @@
 				$(window).trigger('scroll');
 				
 	        });
-        
+        	
     	</script>
 	</head>
 	<body>
@@ -121,6 +123,10 @@
 			<div class="myfocus">
 			</div>
 			
+			<div class="various">
+				<p class="var">网易考拉<span>/各种商品任你挑</span></p>
+			</div>
+			
 			<!--懒加载-->
 			<div class="lazyjzs">
 				<div class="lazyjz">
@@ -129,6 +135,8 @@
 					</div> 
 				<div>
 			</div>
+			
+			
 			
 			<div class="bottom">
 				<ul class="bottomlist">
